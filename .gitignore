@@ -13,3 +13,7 @@ Pipfile*
 *.key
 *.crt
 .env
+TIM.*
+external-import/government-cyber-advisories
+internal-import-file/import-actor
+internal-import-file/import-extraction
