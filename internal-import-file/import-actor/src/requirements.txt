@@ -1,0 +1,15 @@
+pycti==5.8.6
+urllib3==1.26.5
+beautifulsoup4==4.11.2
+pdfminer.six==20221105
+stix==1.2.0.11
+pydantic==1.9.0
+ioc-finder==7.3.0
+dateparser==1.1.7
+pyhumps==3.8.0
+chardet==5.1.0
+stix2==3.0.1
+python-dotenv==1.0.0
+# Installed seperately due to a AttributeError: cython_sources
+# pip3 install "Cython>=3.0" "pyyaml>=6" --no-build-isolation
+#PyYAML==6.0

@@ -1,0 +1,17 @@
+version: '3'
+services:
+  connector-import-actor:
+    image: opencti/connector-actor-import:5.8.7
+    environment:
+      - OPENCTI_URL=http://localhost:4000
+      - OPENCTI_TOKEN=6C2C9EAE-6FF5-4421-B118-74A3CA5AAC20
+      - CONNECTOR_ID=4656B09A-186A-4CC0-98BA-30F120DA045E
+      - CONNECTOR_TYPE=INTERNAL_IMPORT_FILE
+      - CONNECTOR_NAME=ActorImporter
+      - CONNECTOR_VALIDATE_BEFORE_IMPORT=true # Validate any bundle before import
+      - CONNECTOR_AUTO=false # Enable/disable auto-import of file
+      - CONNECTOR_ONLY_CONTEXTUAL=true # Only extract data related to an entity (a report, a threat actor, etc.)
+      - CONNECTOR_SCOPE=text/csv # MIME type or Stix Object
+      - CONNECTOR_CONFIDENCE_LEVEL=100 # From 0 (Unknown) to 100 (Fully trusted)
+      - CONNECTOR_LOG_LEVEL=debug
+    restart: always

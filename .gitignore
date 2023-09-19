@@ -14,5 +14,4 @@ Pipfile*
 *.crt
 .env
 external-import/government-cyber-advisories
-internal-import-file/import-actor
 internal-import-file/import-extraction

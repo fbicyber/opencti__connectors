@@ -1,0 +1,12 @@
+﻿collection.fieldname,ThreatActorIndividual.name,ThreatActorIndividual.confidence,ThreatActorIndividual.description,ThreatActorIndividual.roles,ThreatActorIndividual.x_mcas_citizenship,ThreatActorIndividual.x_mcas_country_of_residence,ThreatActorIndividual.date_of_birth,ThreatActorIndividual.x_mcas_employer,ThreatActorIndividual.x_mcas_ethnicity,ThreatActorIndividual.x_mcas_eye_color,ThreatActorIndividual.x_mcas_gender,ThreatActorIndividual.x_mcas_hair_color,ThreatActorIndividual.x_mcas_height,ThreatActorIndividual.x_mcas_job_title,ThreatActorIndividual.x_mcas_marital_status,ThreatActorIndividual.x_mcas_nationality,ThreatActorIndividual.x_mcas_place_of_birth,ThreatActorIndividual.x_mcas_weight,ThreatActorIndividual.aliases,ThreatActorIndividual.x_opencti_firstname,ThreatActorIndividual.x_opencti_lastname,ThreatActorGroup.name,ThreatActorGroup.aliases
+format,string,"integer, 0 - 100",string,"list of strings, comma-delimited","list of countries, quote-and-comma-delimited","list of countries, quote-and-comma-delimited",mm/dd/yyyy,"list of strings, comma-delimited",string,string,string,string,"inches, mm-dd-yyyy",string,string,string,"list of countries, quote-and-comma-delimited","pounds, mm-dd-yyyy","list of strings, comma-delimited",string,string,string,"list of strings, comma-delimited"
+Rows of data,John Tree,5,,,,,11/1/88,,,purple,Male,,,big guy,,,,,"Big John, Super Susie",,,Wal-mart,Wally's
+,Delilah Frank,one,,,"""Canada""",,,,,yellow,Female,,,free spirit,,,,,Lil Frank,,,,
+,Sister Sue,-5,,,,"""Botswana""",,,,blue,Unknown,,,,,,,,Sally Finery,,,,
+,,,,,,,,,,,,,,,,,,,,,,Joe's Market,Joey's
+,Charlie Smith,100,Great guy to know,"banker, chef, shoe maker","""Zimbabwe""","""Chad""",,,,brown,M,,,,,,,,"Go Slow Joe, Flips",,,,
+,,1,it is a blank name,,,,,,,,,,,,,,,,,,,,
+,Carol Von Frank,33,A full record,"Super Star, Golfer, Hacker",Yemen,"""Argentinax""",5-May-70,"Wally's World, Jumbo's",Afghan,black,Transgender,Blond,"55, 1-1-2023",Arborist,Married,Cambodian,Canada,"111, 2-04-2022",Silver Star,Carol,Frank,,
+bad data,,,,,,,,,,,,,,,,,,,,,,,
+tbd data,,,,,,,,,,,,,,,,,,,,,,,
+good data,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,53 @@
+ThreatActorIndividual:
+  confidence: Int
+  contact_information: String
+  description: String
+  identity_class: String
+  lang: String
+  name: String
+  roles: [String]
+  # @FIX_ME make employer, citizenship, country of residence and place of birth relationships to country
+  # x_mcas_citizenship: [String]
+  # x_mcas_country_of_residence: [String]
+  # x_mcas_place_of_birth:
+  #   type: String
+  # x_mcas_employer: [String]
+  x_mcas_date_of_birth: datetime
+  x_mcas_ethnicity:
+    type: Enum
+    enum: Origin
+  x_mcas_eye_color:
+    type: Enum
+    enum: HairColor
+  x_mcas_gender:
+    type: Enum
+    enum: Gender
+  x_mcas_hair_color:
+    type: Enum
+    enum: HairColor
+  x_mcas_height:
+    type: [HeightTuple]
+  x_mcas_job_title:
+    type: String
+  x_mcas_marital_status:
+    type: Enum
+    enum: MaritalStatus
+  x_mcas_nationality:
+    type: Enum
+    enum: Origin
+  x_mcas_weight:
+    type: [WeightTuple]
+  # x_opencti_aliases: [String]
+  aliases: [String]
+  x_opencti_firstname: String
+  x_opencti_lastname: String
+ThreatActorGroup:
+  confidence: Int
+  contact_information: String
+  description: String
+  identity_class: String
+  lang: String
+  name: String
+  roles: [String]
+  aliases: [String]
+  # x_opencti_aliases: [String]
