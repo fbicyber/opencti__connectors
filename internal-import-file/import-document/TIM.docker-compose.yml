@@ -1,0 +1,14 @@
+version: '3'
+services:
+  connector-import-document:
+    container_name: opencti-connector-import-document
+    working_dir: /opt/opencti-connector-import-document
+    # volumes:
+    #     - ./:/opt/opencti-connector-import-document
+    build:
+      dockerfile: TIM.Dockerfile
+      target: primary
+      # target: debugger
+    restart: always
+    # ports:
+    #   - 5677:5677  # for debugger

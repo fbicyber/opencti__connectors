@@ -1,0 +1,14 @@
+version: '3'
+services:
+  connector-import-file-stix:
+    container_name: opencti-connector-import-file-stix
+    working_dir: /opt/opencti-connector-import-file-stix
+    # volumes:
+    #     - ./src:/opt/opencti-connector-import-file-stix
+    build:
+      dockerfile: TIM.Dockerfile
+      target: primary
+      # target: debugger
+    restart: always
+    # ports:
+    #   - 5678:5678  # for debugger
