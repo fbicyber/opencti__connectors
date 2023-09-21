@@ -8,8 +8,6 @@ services:
     build:
       dockerfile: TIM.Dockerfile
       target: ${DOCKER_BUILD_TARGET}
-      # target: primary
-      # target: debugger
     restart: always
     ports:
-      - 5676:5676  # for debugger
+      - 5676
