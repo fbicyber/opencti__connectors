@@ -10,4 +10,4 @@ services:
       target: ${DOCKER_BUILD_TARGET}
     restart: always
     ports:
-      - 5676
+      - 5676:5676  # for debugger
