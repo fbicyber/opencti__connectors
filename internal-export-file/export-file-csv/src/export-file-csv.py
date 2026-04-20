@@ -30,7 +30,7 @@ class ExportFileCsv:
             []
         )  # error holder to be reset before each new process
 
-    def export_dict_list_to_csv(self, data, columns = []):
+    def export_dict_list_to_csv(self, data, columns=[]):
         output = io.StringIO()
         data_headers = sorted(set().union(*(d.keys() for d in data)))
         headers = (
